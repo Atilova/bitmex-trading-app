@@ -1,0 +1,139 @@
+.order-form
+  display: flex
+  flex-direction: column
+  padding-bottom: 20px
+
+  &__header
+    width: 100%
+    background-color: #414141
+    padding: 6px 10px
+    font-size: 10pt
+    margin-bottom: 25px
+
+  &__wrapper
+    height: 0
+    flex: 1
+    width: 100%
+
+  .form-input
+    padding: 0px 20px 20px 20px
+
+    &__legend
+      font-weight: 700
+      margin-bottom: 10px
+      font-size: 12pt
+      color: #c1c1c1
+
+    &__counter
+      display: flex
+      height: 30px
+      border-radius: 4px
+      overflow: hidden
+
+    &__volume-input
+      appearance: none
+      outline: none
+      border: none
+      min-width: 10px
+      background: none
+      color: white
+      background: #343839
+      padding: 5px 10px
+      height: 100%
+      flex: 1
+      text-align: center
+      font-weight: 600
+
+    &__volume-input::-webkit-inner-spin-button,
+    &__volume-input::-webkit-outer-spin-button
+      appearance: none
+
+    &__counter-button
+      min-width: 30px
+      height: 100%
+      cursor: pointer
+      background-color: #5e5e5e
+      font-size: 11pt
+      outline: none
+      color: white
+
+      &:active
+        filter: brightness(1.2)
+
+    &__operation
+      display: flex
+      margin-top: 20px
+
+    &__operation-legend
+
+    &__operation-button
+      padding: 10px 7px
+      width: 50%
+      border-radius: 4px
+      color: black
+      font-weight: 700
+      cursor: pointer
+
+      &:hover
+        filter: brightness(0.9)
+        
+    &__operation-sell
+      background: rgba(227, 66, 66, 0.9)
+
+    &__operation-buy
+      margin-right: 20px
+      background: rgba(77, 88, 185, 0.9)
+
+    &__response
+      margin-top: 20px
+
+    &__response-text
+      font-size: 10pt
+      color: #939393
+
+  &__confirmation
+    display: flex
+    justify-content: center
+    align-items: center
+    height: 100%    
+    flex-direction: column
+    padding: 10px 20px
+
+  &__confirmation-line
+
+  &__confirmation-action
+    display: flex
+    margin-top: 20px
+    width: 100%
+
+  &__confirmation-button 
+    flex: 1
+    padding: 10px 7px
+    border-radius: 4px
+    color: black
+    font-weight: 700
+    cursor: pointer
+
+    &:hover
+        filter: brightness(0.9)
+
+  &__confirmation-continue
+    margin-right: 20px
+    background: rgba(77, 185, 77, 0.9)
+
+  &__confirmation-cancel
+    background: rgba(227, 66, 66, 0.9)
+
+  &__confirmation-highlighted
+
+
+  &__status-message
+    display: flex
+    flex-direction: column
+    justify-content: center
+    align-items: center
+    height: 100%
+
+  &__status-text
+    font-size: 16pt
+    text-align: center

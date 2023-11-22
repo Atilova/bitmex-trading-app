@@ -1,0 +1,28 @@
+.dashboard-container
+  height: inherit
+  padding: 10px
+  display: grid
+  gap: 10px
+  grid-template-columns: 1.9fr 3fr 1.6fr
+  grid-template-rows: 1fr auto
+  grid-template-areas: 'currency-list quotes-history order-form' 'currency-list orders-history orders-history'
+
+  &__view
+    height: inherit
+    width: 100%
+    overflow: hidden
+    background-color: #39393999 !important
+    border-radius: 4px
+
+  &__currency-list
+    grid-area: currency-list
+
+  &__quotes-history
+    grid-area: quotes-history 
+
+  &__order-form
+    grid-area: order-form
+
+  &__orders-history
+    grid-area: orders-history
+    height: 200px

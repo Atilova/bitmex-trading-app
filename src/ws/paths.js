@@ -1,0 +1,1 @@
+export const WEBSOCKET_API = 'wss://testnet.bitmex.com/realtime'
