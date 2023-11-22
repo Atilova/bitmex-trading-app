@@ -19,7 +19,7 @@ npm run build
 See [Configuration Reference](https://cli.vuejs.org/config/).
 
 ### Set your API_KEY and API_SECRET
-Create .env file in root directort and set following
+Create .env file in root directory and set following
 ```
 VUE_APP_BITMEX_API_KEY="YOUR_KEY"
 VUE_APP_BITMEX_API_SECRET="YOUR_KEY"
